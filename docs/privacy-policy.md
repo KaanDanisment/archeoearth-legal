@@ -5,7 +5,7 @@ title: Privacy Policy
 
 # Privacy Policy
 
-**Last Updated:** April 6, 2026
+**Last Updated:** April 24, 2026
 
 ArcheoEarth is built to help you explore historical places around the world. Your privacy matters to us, and we want to be transparent about how the App works.
 
@@ -35,6 +35,7 @@ We do not collect your password. Authentication is handled securely through Appl
 - **Viewed places**: We track which historical places you view to enforce free-tier usage limits (15 unique places per 24-hour window).
 - **Saved places**: Places you choose to save to your personal collection.
 - **Content reports**: If you report AI-generated content, we store the report reason and associated place information.
+- **Pseudonymous user identifier**: A randomly generated internal identifier (not your name or email) is sent to our analytics provider to help us understand usage patterns and improve the App.
 
 ### 1.4 Device and Technical Data
 
@@ -66,7 +67,15 @@ Historical place descriptions and topics are generated using Google Gemini AI. O
 
 The interactive map is rendered using Apple MapKit. Apple's own privacy terms apply to map data.
 
-### 2.4 Payments
+### 2.4 Analytics (PostHog)
+
+We use PostHog, a product analytics service, to understand how the App is used and to improve the user experience. PostHog receives a pseudonymous user identifier, premium status, language preference, and general usage events (such as which features are used). PostHog does not receive your email address, location, or any personally identifiable information. Data is processed on PostHog's EU servers. For more information, see [PostHog's Privacy Policy](https://posthog.com/privacy).
+
+### 2.5 Error Tracking (Sentry)
+
+We use Sentry to monitor app stability and diagnose crashes. Sentry receives technical diagnostic data such as device type, operating system version, and error stack traces. Sentry does not receive your email address, location, or the content you view. For more information, see [Sentry's Privacy Policy](https://sentry.io/privacy/).
+
+### 2.6 Payments
 
 All in-app purchases and subscriptions are processed entirely by Apple through the App Store. We do not have access to your credit card or payment details.
 
@@ -101,3 +110,4 @@ No personal user data is used as input for AI content generation.
 If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:
 
 **Email**: contact@archeoearth.com
+
