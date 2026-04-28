@@ -1,2 +1,6 @@
 title: ArcheoEarth
 theme: minima
+header_pages:
+  - privacy-policy.md
+  - terms-of-use.md
+  - support.md
